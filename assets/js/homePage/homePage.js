@@ -1,4 +1,3 @@
-// ---------Responsive-navbar-active-animation-----------
 function test(){
 	var tabsNewAnim = $('#navbarSupportedContent');
 	var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
@@ -48,7 +47,7 @@ jQuery(document).ready(function($){
 
 	// Account for home page with empty path
 	if ( path == '' ) {
-		path = 'index.html';
+		path = 'homePage.html';
 	}
 
 	var target = $('#navbarSupportedContent ul li a[href="'+path+'"]');
@@ -76,3 +75,5 @@ jQuery(document).ready(function($){
 //         }
 //     })
 // });
+
+// portfolio
